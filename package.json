@@ -1,17 +1,20 @@
 {
   "name": "news-api",
   "version": "0.0.1",
-  "description": "The Squirrel News API",
+  "description": "REST API of Squirrel News",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "api",
     "rest",
-    "node",
-    "koa"
+    "api"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "SEE LICENCE IN LICENSE file",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "mysql": "^2.11.1",
+    "winston": "^2.2.0"
+  }
 }

@@ -1,6 +1,6 @@
 This is the News API
 
-How to launch the app
+# How to launch the app
 
 Just `npm start` with the right environement parameters.
 

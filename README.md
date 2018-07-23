@@ -11,3 +11,4 @@ For example you could do `MYSQL_DSN="mysql://root:squirrel@localhost/squirrel_ne
     * Your hostname is localhost
     * Your database name is squirrel_news
     * The port you want to listen to is 3000
+test

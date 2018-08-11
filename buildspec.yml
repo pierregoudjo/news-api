@@ -9,9 +9,8 @@ env:
     key: "value"
             
 phases:
-  install:
+  build:
     commands:
       - npm install
-  test:
-    commands:
       - npm test
+      

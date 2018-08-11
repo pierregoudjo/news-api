@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        awsCodeBuild projectName: 'news-api', credentialsType: 'keys', region: 'eu-west-1', sourceControlType: 'jenkins'
+        awsCodeBuild projectName: 'news-api', credentialsType: 'jenkins', region: 'eu-west-1', sourceControlType: 'jenkins'
       }
     }
   }
